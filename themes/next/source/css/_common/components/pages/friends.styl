@@ -1,0 +1,66 @@
+.friends {
+  width: 660px;
+  overflow: hidden;
+  margin: 20px auto 0;
+  padding: 0;
+
+  .friend {
+    float: left;
+    margin: 0 60px 40px 0;
+    width: 270px;
+    list-style: none!important;
+
+    .avatar {
+      float: left;
+      width: 48px;
+      height: 48px;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .intro {
+      margin-left: 64px;
+
+      a {
+        display: block;
+        border-bottom: none;
+        line-height: normal;
+      }
+
+      .name {
+        display: inline-block;
+        margin-bottom: 6px;
+        line-height: 22px;
+        font-size: 16px;
+      }
+
+      .name:hover {
+        text-decoration: underline;
+      }
+
+      .bio {
+        display: block;
+        color: gray;
+        font-size: 14px;
+        line-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 1323px) and (min-width: 992px) {
+  .friends {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .friends {
+    width: 100%;
+  }
+}
