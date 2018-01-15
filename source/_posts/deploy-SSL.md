@@ -17,6 +17,8 @@ $ chmod a+x ./certbot-auto
 $ ./certbot-auto
 ```
 
+<!-- more -->
+
 ## 第二步：生成证书
 
 ```bash

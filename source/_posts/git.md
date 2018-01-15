@@ -15,6 +15,8 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
 
+<!-- more -->
+
 # 创建版本库 #
 ```bash
 $ mkdir learngit //新建文件夹

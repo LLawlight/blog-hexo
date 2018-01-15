@@ -13,6 +13,8 @@ tags:
 ```js   
 parentElement.insertBefore(newElement, targetElement);
 ```
+<!-- more -->
+
 可以看出，在使用此方法时，我们必须提供三个元素给它：   
 1. 你想插入的新元素newElement。   
 2. 你想把这个新元素插入到哪个目标元素（targetElement）之前。   

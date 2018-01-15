@@ -38,6 +38,9 @@ var iConunt; //整数
 var sName;   //字符串
 var oPerson; //对象
 ```
+
+<!-- more -->
+
 ----------
 
 # 松散耦合 #

@@ -15,6 +15,8 @@ tags:
 npm install webpack -g
 ```
 
+<!-- more -->
+
 新建文件夹，创建package.json，填写配置信息：
 ```bash
 mkdir webpack

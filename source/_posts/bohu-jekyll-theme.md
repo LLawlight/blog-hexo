@@ -11,6 +11,8 @@ tags:
 
 最近花了三天时间制作了我的第一个jekyll theme——BoHu。一款知乎风格的模板，使用jekyll模板引擎，十分钟就能搭建属于你自己的静态博客网站。   
 
+<!-- more -->
+
 ----------
 
 ![](https://ws1.sinaimg.cn/large/6ad0d67fgy1fkvf53mgg6j20rs0kkacs.jpg)

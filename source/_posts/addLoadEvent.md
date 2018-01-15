@@ -20,6 +20,8 @@ window.onload=Function2;
 ```
 那么它们当中只有最后那个才会被执行。
 
+<!-- more -->
+
 如果我们要让两个事件处理函数都得到执行，我们可以创建一个匿名函数来容纳这两个函数，然后把匿名函数绑定到onload事件上：     
 ```js
 	window.onload=function(){

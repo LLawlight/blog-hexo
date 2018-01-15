@@ -25,6 +25,9 @@ var obj = {
 };
 obj.getA();
 ```
+
+<!-- more -->
+
 ### 2.作为普通函数调用
 
 此时的this总是指向全局对象。在浏览器的JavaScript里，这个全局对象是window对象。

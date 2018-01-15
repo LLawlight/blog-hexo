@@ -22,6 +22,9 @@ num1.toExponential(16);  //1.2345678910111213e+0
 var num2 = 1.23456789101112162;
 num2.toExponential(16);  //1.2345678910111215e+0
 ```
+
+<!-- more -->
+
 ----------
 
 ## number.toFixed(fractionDigits)
