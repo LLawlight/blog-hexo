@@ -24,10 +24,10 @@ window.onload=Function2;
 
 如果我们要让两个事件处理函数都得到执行，我们可以创建一个匿名函数来容纳这两个函数，然后把匿名函数绑定到onload事件上：     
 ```js
-	window.onload=function(){
-	  Function1();
-	  Function2();
-	}
+window.onload=function(){
+  Function1();
+  Function2();
+}
 ```
 [Simon Willison](http://simon.incutio.com)编写了一个函数addLoadEvent，它将完成以下操作：
 
@@ -51,6 +51,6 @@ function addLoadEvent(func){
 ```
 在添加了addLoadEvent这个函数之后，如果我们想让刚才那两个函数都在页面加载完毕时得到执行，只需要写出以下代码就能完成上文匿名函数的功能了：
 ```js
-	addLoadEvent(Function1);
-	addLoadEvent(Function2);
+addLoadEvent(Function1);
+addLoadEvent(Function2);
 ```
